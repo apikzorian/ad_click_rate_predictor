@@ -1,0 +1,221 @@
+DataProc - output - ad74f880-972b-432a-ae0a-9804adc8b269 
+
+Ivy Default Cache set to: /root/.ivy2/cache
+The jars for the packages stored in: /root/.ivy2/jars
+:: loading settings :: url = jar:file:/usr/lib/spark/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+graphframes#graphframes added as a dependency
+com.databricks#spark-avro_2.11 added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-03f112fd-688d-45da-95ec-cd6f1887d955;1.0
+	confs: [default]
+	found graphframes#graphframes;0.7.0-spark2.3-s_2.11 in spark-packages
+	found org.slf4j#slf4j-api;1.7.16 in central
+	found com.databricks#spark-avro_2.11;4.0.0 in central
+	found org.apache.avro#avro;1.7.6 in central
+	found org.codehaus.jackson#jackson-core-asl;1.9.13 in central
+	found org.codehaus.jackson#jackson-mapper-asl;1.9.13 in central
+	found com.thoughtworks.paranamer#paranamer;2.3 in central
+	found org.xerial.snappy#snappy-java;1.0.5 in central
+	found org.apache.commons#commons-compress;1.4.1 in central
+	found org.tukaani#xz;1.0 in central
+downloading https://dl.bintray.com/spark-packages/maven/graphframes/graphframes/0.7.0-spark2.3-s_2.11/graphframes-0.7.0-spark2.3-s_2.11.jar ...
+	[SUCCESSFUL ] graphframes#graphframes;0.7.0-spark2.3-s_2.11!graphframes.jar (354ms)
+downloading https://repo1.maven.org/maven2/com/databricks/spark-avro_2.11/4.0.0/spark-avro_2.11-4.0.0.jar ...
+	[SUCCESSFUL ] com.databricks#spark-avro_2.11;4.0.0!spark-avro_2.11.jar (28ms)
+downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar ...
+	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.16!slf4j-api.jar (15ms)
+downloading https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.6/avro-1.7.6.jar ...
+	[SUCCESSFUL ] org.apache.avro#avro;1.7.6!avro.jar(bundle) (40ms)
+downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar ...
+	[SUCCESSFUL ] org.codehaus.jackson#jackson-core-asl;1.9.13!jackson-core-asl.jar (16ms)
+downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar ...
+	[SUCCESSFUL ] org.codehaus.jackson#jackson-mapper-asl;1.9.13!jackson-mapper-asl.jar (27ms)
+downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.jar ...
+	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer;2.3!paranamer.jar (14ms)
+downloading https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.0.5/snappy-java-1.0.5.jar ...
+	[SUCCESSFUL ] org.xerial.snappy#snappy-java;1.0.5!snappy-java.jar(bundle) (27ms)
+downloading https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar ...
+	[SUCCESSFUL ] org.apache.commons#commons-compress;1.4.1!commons-compress.jar (15ms)
+downloading https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.jar ...
+	[SUCCESSFUL ] org.tukaani#xz;1.0!xz.jar (16ms)
+:: resolution report :: resolve 3538ms :: artifacts dl 559ms
+	:: modules in use:
+	com.databricks#spark-avro_2.11;4.0.0 from central in [default]
+	com.thoughtworks.paranamer#paranamer;2.3 from central in [default]
+	graphframes#graphframes;0.7.0-spark2.3-s_2.11 from spark-packages in [default]
+	org.apache.avro#avro;1.7.6 from central in [default]
+	org.apache.commons#commons-compress;1.4.1 from central in [default]
+	org.codehaus.jackson#jackson-core-asl;1.9.13 from central in [default]
+	org.codehaus.jackson#jackson-mapper-asl;1.9.13 from central in [default]
+	org.slf4j#slf4j-api;1.7.16 from central in [default]
+	org.tukaani#xz;1.0 from central in [default]
+	org.xerial.snappy#snappy-java;1.0.5 from central in [default]
+	:: evicted modules:
+	org.slf4j#slf4j-api;1.7.5 by [org.slf4j#slf4j-api;1.7.16] in [default]
+	org.slf4j#slf4j-api;1.6.4 by [org.slf4j#slf4j-api;1.7.16] in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   12  |   10  |   10  |   2   ||   10  |   10  |
+	---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-03f112fd-688d-45da-95ec-cd6f1887d955
+	confs: [default]
+	10 artifacts copied, 0 already retrieved (3492kB/16ms)
+19/12/08 06:48:20 INFO org.spark_project.jetty.util.log: Logging initialized @8058ms
+19/12/08 06:48:20 INFO org.spark_project.jetty.server.Server: jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+19/12/08 06:48:20 INFO org.spark_project.jetty.server.Server: Started @8161ms
+19/12/08 06:48:20 INFO org.spark_project.jetty.server.AbstractConnector: Started ServerConnector@44fbc3fe{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+19/12/08 06:48:20 WARN org.apache.spark.scheduler.FairSchedulableBuilder: Fair Scheduler configuration file not found so jobs will be scheduled in FIFO order. To use fair scheduling, configure pools in fairscheduler.xml or set spark.scheduler.allocation.file to a file that contains the configuration.
+19/12/08 06:48:21 INFO org.apache.hadoop.yarn.client.RMProxy: Connecting to ResourceManager at samt-m/10.142.0.57:8032
+19/12/08 06:48:21 INFO org.apache.hadoop.yarn.client.AHSProxy: Connecting to Application History server at samt-m/10.142.0.57:10200
+19/12/08 06:48:27 WARN org.apache.spark.deploy.yarn.Client: Same path resource file:///root/.ivy2/jars/graphframes_graphframes-0.7.0-spark2.3-s_2.11.jar added multiple times to distributed cache.
+19/12/08 06:48:27 WARN org.apache.spark.deploy.yarn.Client: Same path resource file:///root/.ivy2/jars/com.databricks_spark-avro_2.11-4.0.0.jar added multiple times to distributed cache.
+19/12/08 06:48:27 WARN org.apache.spark.deploy.yarn.Client: Same path resource file:///root/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar added multiple times to distributed cache.
+19/12/08 06:48:27 WARN org.apache.spark.deploy.yarn.Client: Same path resource file:///root/.ivy2/jars/org.apache.avro_avro-1.7.6.jar added multiple times to distributed cache.
+19/12/08 06:48:27 WARN org.apache.spark.deploy.yarn.Client: Same path resource file:///root/.ivy2/jars/org.codehaus.jackson_jackson-core-asl-1.9.13.jar added multiple times to distributed cache.
+19/12/08 06:48:27 WARN org.apache.spark.deploy.yarn.Client: Same path resource file:///root/.ivy2/jars/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar added multiple times to distributed cache.
+19/12/08 06:48:27 WARN org.apache.spark.deploy.yarn.Client: Same path resource file:///root/.ivy2/jars/com.thoughtworks.paranamer_paranamer-2.3.jar added multiple times to distributed cache.
+19/12/08 06:48:27 WARN org.apache.spark.deploy.yarn.Client: Same path resource file:///root/.ivy2/jars/org.xerial.snappy_snappy-java-1.0.5.jar added multiple times to distributed cache.
+19/12/08 06:48:27 WARN org.apache.spark.deploy.yarn.Client: Same path resource file:///root/.ivy2/jars/org.apache.commons_commons-compress-1.4.1.jar added multiple times to distributed cache.
+19/12/08 06:48:27 WARN org.apache.spark.deploy.yarn.Client: Same path resource file:///root/.ivy2/jars/org.tukaani_xz-1.0.jar added multiple times to distributed cache.
+19/12/08 06:48:27 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl: Submitted application application_1575787638290_0001
+('spark.org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter.param.PROXY_URI_BASES', 'http://samt-m:8088/proxy/application_1575787638290_0001')
+('spark.app.id', 'application_1575787638290_0001')
+('spark.dynamicAllocation.minExecutors', '1')
+('spark.driver.appUIAddress', 'http://samt-m.c.w261project-258504.internal:4040')
+('spark.eventLog.enabled', 'true')
+('spark.executorEnv.PYTHONPATH', '{{PWD}}/pyspark.zip<CPS>{{PWD}}/py4j-0.10.7-src.zip<CPS>{{PWD}}/graphframes_graphframes-0.7.0-spark2.3-s_2.11.jar<CPS>{{PWD}}/com.databricks_spark-avro_2.11-4.0.0.jar<CPS>{{PWD}}/org.slf4j_slf4j-api-1.7.16.jar<CPS>{{PWD}}/org.apache.avro_avro-1.7.6.jar<CPS>{{PWD}}/org.codehaus.jackson_jackson-core-asl-1.9.13.jar<CPS>{{PWD}}/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar<CPS>{{PWD}}/com.thoughtworks.paranamer_paranamer-2.3.jar<CPS>{{PWD}}/org.xerial.snappy_snappy-java-1.0.5.jar<CPS>{{PWD}}/org.apache.commons_commons-compress-1.4.1.jar<CPS>{{PWD}}/org.tukaani_xz-1.0.jar')
+('spark.yarn.am.memory', '640m')
+('spark.driver.host', 'samt-m.c.w261project-258504.internal')
+('spark.executor.cores', '4')
+('spark.yarn.tags', 'dataproc_hash_c36d13a6-76bb-3c30-b7e6-85b688ea899e,dataproc_job_ad74f880-972b-432a-ae0a-9804adc8b269,dataproc_master_index_0,dataproc_uuid_ad74f880-972b-432a-ae0a-9804adc8b269')
+('spark.org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter.param.PROXY_HOSTS', 'samt-m')
+('spark.submit.pyFiles', '/root/.ivy2/jars/graphframes_graphframes-0.7.0-spark2.3-s_2.11.jar,/root/.ivy2/jars/com.databricks_spark-avro_2.11-4.0.0.jar,/root/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar,/root/.ivy2/jars/org.apache.avro_avro-1.7.6.jar,/root/.ivy2/jars/org.codehaus.jackson_jackson-core-asl-1.9.13.jar,/root/.ivy2/jars/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar,/root/.ivy2/jars/com.thoughtworks.paranamer_paranamer-2.3.jar,/root/.ivy2/jars/org.xerial.snappy_snappy-java-1.0.5.jar,/root/.ivy2/jars/org.apache.commons_commons-compress-1.4.1.jar,/root/.ivy2/jars/org.tukaani_xz-1.0.jar')
+('spark.history.fs.logDirectory', 'hdfs://samt-m/user/spark/eventlog')
+('spark.yarn.dist.jars', 'file:///root/.ivy2/jars/graphframes_graphframes-0.7.0-spark2.3-s_2.11.jar,file:///root/.ivy2/jars/com.databricks_spark-avro_2.11-4.0.0.jar,file:///root/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar,file:///root/.ivy2/jars/org.apache.avro_avro-1.7.6.jar,file:///root/.ivy2/jars/org.codehaus.jackson_jackson-core-asl-1.9.13.jar,file:///root/.ivy2/jars/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar,file:///root/.ivy2/jars/com.thoughtworks.paranamer_paranamer-2.3.jar,file:///root/.ivy2/jars/org.xerial.snappy_snappy-java-1.0.5.jar,file:///root/.ivy2/jars/org.apache.commons_commons-compress-1.4.1.jar,file:///root/.ivy2/jars/org.tukaani_xz-1.0.jar')
+('spark.executor.instances', '2')
+('spark.driver.maxResultSize', '6656m')
+('spark.serializer.objectStreamReset', '100')
+('spark.submit.deployMode', 'client')
+('spark.yarn.dist.pyFiles', 'file:///root/.ivy2/jars/graphframes_graphframes-0.7.0-spark2.3-s_2.11.jar,file:///root/.ivy2/jars/com.databricks_spark-avro_2.11-4.0.0.jar,file:///root/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar,file:///root/.ivy2/jars/org.apache.avro_avro-1.7.6.jar,file:///root/.ivy2/jars/org.codehaus.jackson_jackson-core-asl-1.9.13.jar,file:///root/.ivy2/jars/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar,file:///root/.ivy2/jars/com.thoughtworks.paranamer_paranamer-2.3.jar,file:///root/.ivy2/jars/org.xerial.snappy_snappy-java-1.0.5.jar,file:///root/.ivy2/jars/org.apache.commons_commons-compress-1.4.1.jar,file:///root/.ivy2/jars/org.tukaani_xz-1.0.jar')
+('spark.ui.filters', 'org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter')
+('spark.driver.memory', '30g')
+('spark.shuffle.service.enabled', 'true')
+('spark.yarn.historyServer.address', 'samt-m:18080')
+('spark.scheduler.mode', 'FAIR')
+('spark.hadoop.hive.execution.engine', 'mr')
+('spark.yarn.jars', 'local:/usr/lib/spark/jars/*')
+('spark.yarn.secondary.jars', 'graphframes_graphframes-0.7.0-spark2.3-s_2.11.jar,com.databricks_spark-avro_2.11-4.0.0.jar,org.slf4j_slf4j-api-1.7.16.jar,org.apache.avro_avro-1.7.6.jar,org.codehaus.jackson_jackson-core-asl-1.9.13.jar,org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar,com.thoughtworks.paranamer_paranamer-2.3.jar,org.xerial.snappy_snappy-java-1.0.5.jar,org.apache.commons_commons-compress-1.4.1.jar,org.tukaani_xz-1.0.jar')
+('spark.scheduler.minRegisteredResourcesRatio', '0.0')
+('spark.executor.id', 'driver')
+('spark.dynamicAllocation.maxExecutors', '10000')
+('spark.executor.memory', '12g')
+('spark.executor.extraJavaOptions', '-Dflogger.backend_factory=com.google.cloud.hadoop.repackaged.gcs.com.google.common.flogger.backend.log4j.Log4jBackendFactory#getInstance')
+('spark.master', 'yarn')
+('spark.jars.packages', 'graphframes:graphframes:0.7.0-spark2.3-s_2.11,com.databricks:spark-avro_2.11:4.0.0')
+('spark.eventLog.dir', 'hdfs://samt-m/user/spark/eventlog')
+('spark.executorEnv.PYTHONHASHSEED', '0')
+('spark.rpc.message.maxSize', '512')
+('spark.rdd.compress', 'True')
+('spark.repl.local.jars', 'file:///root/.ivy2/jars/graphframes_graphframes-0.7.0-spark2.3-s_2.11.jar,file:///root/.ivy2/jars/com.databricks_spark-avro_2.11-4.0.0.jar,file:///root/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar,file:///root/.ivy2/jars/org.apache.avro_avro-1.7.6.jar,file:///root/.ivy2/jars/org.codehaus.jackson_jackson-core-asl-1.9.13.jar,file:///root/.ivy2/jars/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar,file:///root/.ivy2/jars/com.thoughtworks.paranamer_paranamer-2.3.jar,file:///root/.ivy2/jars/org.xerial.snappy_snappy-java-1.0.5.jar,file:///root/.ivy2/jars/org.apache.commons_commons-compress-1.4.1.jar,file:///root/.ivy2/jars/org.tukaani_xz-1.0.jar')
+('spark.yarn.isPython', 'true')
+('spark.dynamicAllocation.enabled', 'true')
+('spark.sql.parquet.cacheMetadata', 'false')
+('spark.driver.port', '37083')
+('spark.executorEnv.OPENBLAS_NUM_THREADS', '1')
+('spark.app.name', 'logistic_regression')
+('spark.ui.proxyBase', '/proxy/application_1575787638290_0001')
+('spark.sql.cbo.enabled', 'true')
+('spark.driver.extraJavaOptions', '-Dflogger.backend_factory=com.google.cloud.hadoop.repackaged.gcs.com.google.common.flogger.backend.log4j.Log4jBackendFactory#getInstance')
+19/12/08 06:48:52 WARN org.apache.spark.util.Utils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+ Total number of Rows = 45840627
+ Dropped NULL values from prediction variable. Total number of Rows = 45840617
+ Total number of Rows in the TEST set = 9169351
++------+--------------------+
+|labels|            features|
++------+--------------------+
+|     0|(9965,[0,44,303,4...|
+|     0|(9965,[0,44,303,4...|
+|     0|(9965,[0,44,303,4...|
+|     0|(9965,[0,44,303,4...|
+|     0|(9965,[0,44,303,4...|
++------+--------------------+
+only showing top 5 rows
+
+ Total number of Rows in the TRAIN set = 36671266
++--------------------+------+
+|            features|labels|
++--------------------+------+
+|(9965,[0,44,303,4...|     0|
+|(9965,[0,44,303,4...|     0|
+|(9965,[0,44,303,4...|     0|
+|(9965,[0,44,303,4...|     0|
+|(9965,[0,44,303,4...|     0|
+|(9965,[0,44,303,4...|     0|
+|(9965,[0,44,303,4...|     0|
+|(9965,[0,44,303,4...|     0|
+|(9965,[0,44,303,4...|     0|
+|(9965,[0,44,303,4...|     0|
++--------------------+------+
+only showing top 10 rows
+
+Positive class in the training data = 25.61855922836152 %
+Baseline Log loss for the training data = 0.569029234514334
+Training model...
+19/12/08 06:57:01 INFO com.github.fommil.jni.JniLoader: successfully loaded /tmp/jniloader7439839394682585335netlib-native_system-linux-x86_64.so
+19/12/08 06:57:09 INFO breeze.optimize.StrongWolfeLineSearch: Line search t: 0.6849947120106077 fval: 0.50277667932565 rhs: 0.5690148734515217 cdd: 0.007431976924915341
+19/12/08 06:57:09 INFO breeze.optimize.LBFGS: Step Size: 0.6850
+19/12/08 06:57:09 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.502777 (rel: 0.116) 0.296401
+19/12/08 06:57:14 INFO breeze.optimize.StrongWolfeLineSearch: Line search t: 0.30566142650699013 fval: 0.496957007269332 rhs: 0.502775485264891 cdd: 7.153823784570367E-5
+19/12/08 06:57:14 INFO breeze.optimize.LBFGS: Step Size: 0.3057
+19/12/08 06:57:14 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.496957 (rel: 0.0116) 0.199783
+19/12/08 06:57:17 INFO breeze.optimize.LBFGS: Step Size: 1.000
+19/12/08 06:57:17 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.493552 (rel: 0.00685) 0.171312
+19/12/08 06:57:19 INFO breeze.optimize.LBFGS: Step Size: 1.000
+19/12/08 06:57:19 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.480277 (rel: 0.0269) 0.0708475
+19/12/08 06:57:22 INFO breeze.optimize.LBFGS: Step Size: 1.000
+19/12/08 06:57:22 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.477862 (rel: 0.00503) 0.0579671
+19/12/08 06:57:24 INFO breeze.optimize.LBFGS: Step Size: 1.000
+19/12/08 06:57:24 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.474202 (rel: 0.00766) 0.0463064
+19/12/08 06:57:27 INFO breeze.optimize.LBFGS: Step Size: 1.000
+19/12/08 06:57:27 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.473822 (rel: 0.000800) 0.0613018
+19/12/08 06:57:30 INFO breeze.optimize.LBFGS: Step Size: 1.000
+19/12/08 06:57:30 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.472661 (rel: 0.00245) 0.0235701
+19/12/08 06:57:32 INFO breeze.optimize.LBFGS: Step Size: 1.000
+19/12/08 06:57:32 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.472306 (rel: 0.000751) 0.0157749
+19/12/08 06:57:35 INFO breeze.optimize.LBFGS: Step Size: 1.000
+19/12/08 06:57:35 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.471934 (rel: 0.000788) 0.0163917
+19/12/08 06:57:35 INFO breeze.optimize.LBFGS: Converged because max iterations reached
+Training completed ...in 146.5255527496338
+Baseline Log loss for the training data = 0.569029234514334
+MODEL Log loss for the test data = 0.47215762480930773
++--------------------+------+----------+--------------------+--------------------+-------------------+
+|            features|labels|prediction|           calc_prob|         probability|            logloss|
++--------------------+------+----------+--------------------+--------------------+-------------------+
+|(9965,[0,44,303,4...|     0|       0.0| 0.08793259102917286|[0.91206740897082...|0.09204137829405702|
+|(9965,[0,44,303,4...|     0|       0.0|  0.1556385071392035|[0.84436149286079...| 0.1691745670075568|
+|(9965,[0,44,303,4...|     0|       0.0| 0.09198844530037789|[0.90801155469962...|0.09649817502169887|
+|(9965,[0,44,303,4...|     0|       0.0|0.031027245790977816|[0.96897275420902...|0.03151878491802275|
+|(9965,[0,44,303,4...|     0|       0.0| 0.09389480487439693|[0.90610519512560...|0.09859987026917554|
+|(9965,[0,44,303,4...|     0|       0.0| 0.16560922385777052|[0.83439077614222...| 0.1810534298362662|
+|(9965,[0,44,303,4...|     0|       0.0|  0.2791293530320949|[0.72087064696790...|0.32729556560419903|
+|(9965,[0,44,303,4...|     0|       0.0|  0.1795826709470539|[0.82041732905294...|0.19794213031934463|
+|(9965,[0,44,303,4...|     0|       0.0|  0.2002486122708739|[0.79975138772912...| 0.2234543649503562|
+|(9965,[0,44,303,4...|     0|       0.0| 0.08632646275428389|[0.91367353724571...|0.09028195158837629|
++--------------------+------+----------+--------------------+--------------------+-------------------+
+only showing top 10 rows
+
++-----------+------------+
+|    feature|       coeff|
++-----------+------------+
+|n1v_1000001|-0.028835362|
+|      n1v_0|-0.060764525|
+|      n1v_1|0.0067570987|
+|      n1v_2| 0.058069266|
+|      n1v_3|  0.07805634|
++-----------+------------+
+only showing top 5 rows
+
+19/12/08 06:59:50 INFO org.spark_project.jetty.server.AbstractConnector: Stopped Spark@44fbc3fe{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+
+Job output is complete
